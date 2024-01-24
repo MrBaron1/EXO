@@ -1,0 +1,8 @@
+/* 
+    Check bug(mistakes) in CSS code :jigsaw.w3.org/css-validator
+*/
+p
+{
+    font-size: 30px;
+    color: purple;
+}

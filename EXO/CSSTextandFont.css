@@ -1,0 +1,15 @@
+/* fonts.google.com */
+body{
+    padding: 5%;
+}
+p{
+    text-transform: capitalize;
+    text-align: justify;
+    text-indent: 2em;
+    font-weight: bold;
+    font-family: Verdana;
+    /* line-height: 1.5; 
+        letter-word-(spacing):0.25em;
+        font-style:italic;
+    */
+}

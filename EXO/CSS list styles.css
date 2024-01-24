@@ -1,0 +1,38 @@
+body{
+    padding: 5% 10%;
+    font-size: 1rem;
+    font-family: georgia;
+    
+}
+h2{
+    border: 3px solid;
+    width: 20%;
+}
+
+ol{
+    list-style-type: decimal-leading-zero; /* Circle | disc| upper-roman| lower-alpha | none(padding: 0 ; */
+}
+ul{
+    list-style-type: square;
+    text-align: center;
+    line-height: 1.5;
+    list-style-image: url("liste\ dot.png") ;
+    /* inside; */ list-style-position: inside;
+}
+ul li:nth-child(2) {
+
+    color: red;
+
+}
+
+::marker{
+    color:#000 /* to keep dot color different */
+    /* content: "Only $5 >>"; */ 
+
+}
+ul ::marker{
+    color: red; /* to keep dot color different */
+    font-family: fantasy;
+    content: "Only $5 >>"; 
+
+}

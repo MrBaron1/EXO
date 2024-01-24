@@ -1,0 +1,40 @@
+/* #ID selector try to kepp ID out of CSS
+    .CLASS selector
+    it exist an universal selector
+    *
+    {
+        font-family: monospace;
+    }
+    
+    website to check element: specificity.keegan.st
+*/
+
+body
+{
+    font-size: 18px;
+}
+h1
+{
+    color: rgb(255, 153, 0);
+}
+
+p
+{
+    color: purple!important; /*superiorite des commandes*/
+}
+p
+{
+    color: red;
+}
+.gray
+{
+    color: gray ;
+}
+.try
+{
+     text-transform: uppercase;
+}
+/*#second
+{
+    font-style: italic;
+}*/

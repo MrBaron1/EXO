@@ -1,0 +1,26 @@
+/* you can import file from google front*/
+/* ALT SHIT A for comment */
+/* CSS checker: specificity.keegan.st */
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: underline;
+    cursor: pointer; /* not-allowed */
+    color: blue;
+}
+/* Pseudo class */
+
+a:visited{
+    color:purple
+}
+
+a:hover{
+    color:dodgerblue; 
+}
+
+a:active{
+     color: red;
+}
